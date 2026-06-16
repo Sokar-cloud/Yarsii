@@ -1,0 +1,14 @@
+{
+  "name": "yarsii-ai-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot web con IA usando OpenAI Responses API.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
