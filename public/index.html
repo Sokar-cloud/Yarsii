@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YarsiiBot | Chatbot con IA</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="chat-shell">
+      <section class="hero">
+        <p class="eyebrow">Chatbot con inteligencia artificial</p>
+        <h1>YarsiiBot</h1>
+        <p>Escribe una pregunta y conversa con tu asistente en español.</p>
+      </section>
+
+      <section class="chat-card" aria-label="Chat con YarsiiBot">
+        <div id="status" class="status">Conectando...</div>
+        <div id="messages" class="messages" aria-live="polite"></div>
+        <form id="chat-form" class="chat-form">
+          <label class="sr-only" for="message-input">Mensaje</label>
+          <input id="message-input" name="message" type="text" placeholder="Pregunta algo..." autocomplete="off" required />
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
